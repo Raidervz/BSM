@@ -122,7 +122,6 @@ namespace BancaMovilServer
             }
         }
 
-        // POST /Badges
         private Response AddBadge()
         {
             Badge badge = null;
