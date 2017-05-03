@@ -64,6 +64,8 @@ namespace BancaMovilServer
 
         private static void SeedDatabase(string fileName)
         {
+            File.Create(fileName).Dispose();
+
             string dbConnection = String.Format("Data Source={0}", fileName);
             String sql = @"
                 create table [Badges] (
