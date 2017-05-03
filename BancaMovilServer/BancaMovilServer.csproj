@@ -50,13 +50,13 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations">
-      <Private>True</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Configuration">
-      <Private>True</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Core">
-      <Private>True</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Data.SQLite, Version=1.0.105.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Data.SQLite.Core.1.0.105.0\lib\net451\System.Data.SQLite.dll</HintPath>
@@ -68,22 +68,22 @@
       <HintPath>..\packages\System.Data.SQLite.Linq.1.0.105.0\lib\net451\System.Data.SQLite.Linq.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq">
-      <Private>True</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions">
-      <Private>True</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp">
-      <Private>True</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Data">
-      <Private>True</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Net.Http">
-      <Private>True</Private>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System.Xml">
-      <Private>True</Private>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
