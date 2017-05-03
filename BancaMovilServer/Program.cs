@@ -14,7 +14,7 @@ namespace BancaMovilServer
             Uri domainUri = null;
             try
             {
-                domainUri = new Uri(DOMAIN);
+                domainUri = new Uri("http://localhost:8088");
             }
             catch (Exception e)
             {
