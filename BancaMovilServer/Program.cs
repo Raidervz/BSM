@@ -19,6 +19,7 @@ namespace BancaMovilServer
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
+                Environment.Exit(0);
             }
 
             // create a new self-host server
