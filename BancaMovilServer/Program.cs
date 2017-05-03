@@ -11,8 +11,19 @@ namespace BancaMovilServer
         const string DOMAIN = "http://localhost:8088";
         static void Main(string[] args)
         {
+            Uri domainUri = null;
+            try
+            {
+                domainUri = new Uri(DOMAIN);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
             // create a new self-host server
-            var nancyHost = new Nancy.Hosting.Self.NancyHost(new Uri(DOMAIN));
+            var nancyHost = new Nancy.Hosting.Self.NancyHost(domainUri);
+            
             // start
             nancyHost.Start();
             Console.WriteLine("REST service listening on " + DOMAIN);
